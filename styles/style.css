@@ -559,7 +559,7 @@ h3 {
 @media (max-width: 375px) {
   body {
     width: 100%;
-    overflow-x: hidden;
+/*     overflow-x: hidden; */
   }
 
   .item1-container,
