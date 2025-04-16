@@ -390,13 +390,11 @@ h3 {
   justify-content: center;
   align-items: center;
   /* padding: 20px 10px; */
-  margin: 0 auto;
-  max-width: 98vw;
+  margin: 55px 0 0 0;
 }
 
 .footer-title {
   width: auto;
-  margin-top: 110px;
   text-align: center;
 }
 
@@ -446,9 +444,10 @@ h3 {
   }
 
   .main-heading__text {
-    width: auto;
+    width: 47.5%;
     margin-right: 20px;
     margin-top: 20px;
+    line-height: 24px;
   }
 
   .main-heading {
@@ -487,6 +486,14 @@ h3 {
     line-height: 23.4px;
   }
 
+  .text {
+    margin-top: 9.5px;
+  }
+
+  .error-text {
+    margin-top: 13px;
+  }
+
   .paragraph-main-text__thought,
   .main-heading-paragraph {
     width: 100%;
@@ -498,6 +505,14 @@ h3 {
 
   .paragraph-main-text-heading {
     margin-top: 0;
+  }
+
+  .wrong-heading {
+    margin-top: 22px;
+  }
+
+  .wrong-text {
+    line-height: 23.2px;
   }
 
   /* .paragraph-main {
@@ -578,10 +593,6 @@ h3 {
 
   .wrong-paragraph {
     margin-top: 22px;
-  }
-
-  .footer-title {
-    margin-top: 100px;
   }
 
   .heading {
@@ -713,7 +724,7 @@ h3 {
   }
 
   .main-heading__text {
-    margin-left: 10px;
+    margin: 20px 10px 0 10px;
     width: auto;
     max-width: 95%;
     line-height: 23px;
